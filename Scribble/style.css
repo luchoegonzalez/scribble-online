@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.enSafari {
+    margin-bottom: 0px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+}
+
+/* #dibujo {
+    background: black;
+} */
+
+ul {
+    list-style: none;
+}
+
+#colores {
+    width: 50px;
+    height: 50px;
+    background: #1d5464;
+    border-radius: 100%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#colores::-webkit-color-swatch {
+    border-radius: 100%;
+    border: none;
+}
+
+#colores::-moz-color-swatch {
+    border-radius: 100%;
+    border: none;
+}
+
+#colores::-ms-color-swatch {
+    border-radius: 100%;
+    border: none;
+}
+
+#colores:focus {
+    outline: none;
+}
+
+.nav {
+    display: none;
+    overflow: scroll;
+}
+
+.abrirNav {
+    background-color: #298f9b;
+    padding:0px 10px;
+    height: 100%;
+    display: block;
+}
+
+.colorcete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ancho {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.fa-edit {
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    padding-right: 2px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background: #298f9b;
+    cursor: pointer;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+li {
+    margin: 30px 0px;
+}
+
+.i {
+    color: white;
+    background: #1d5464;
+    border-radius: 100%;
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.dibujo {
+    background: #f3f9fb;
+    cursor: url(zenyth\ handwriting.cur), auto;
+}
+
+.eraserCur {
+    cursor: url(eraser.cur), auto;
+}
+
+.iSelected {
+    background: #1b335f;
+}
+
+.jscolor {
+    width: 50px;
+    height: 50px;
+    background: #1d5464;
+    border-radius: 100%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.colorSafari {
+    display: none;
+}
+
+
+
+@media (min-width: 768px) {
+
+.abrirNav {
+    padding:0px 30px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+#colores {
+    width: 70px;
+    height: 70px;
+}
+
+.jscolor {
+    width: 70px;
+    height: 70px;
+}
+
+.i {
+    font-size: 35px;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+}

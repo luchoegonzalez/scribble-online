@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scribble Online</title>
+    <meta name="theme-color" content="#1d5464"/>
+
+    <link rel="icon" href="lapiz.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.6.1-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body id="body">
+    <header id="header">
+        <span class="fas fa-edit" id="bars"></span>
+        <nav class="nav" id="nav">
+            <ul>
+                <li>
+                    <h1>Scribble Online</h1>
+                </li>
+                <li class="colorcito">
+                    <h2 id="h2">Color</h2>
+                    <div class="colorcete">
+                        <input type="color" id="colores" value="#207e82"></li>
+                        <input type="button" class="jscolor" value="207e82" id="coloresAlt">
+                    </div>
+                <li class="ancho">
+                    <h2>Trazo</h2>
+                    <span class="i fas fa-pen iSelected" id="chico"></span>
+                    <span class="i fas fa-marker" id="med"></span>
+                    <span class="i fas fa-highlighter" id="big"></span>
+                </li>
+                <li class="ancho">
+                    <h2>Borrar</h2>
+                    <span class="i fas fa-eraser" id="eraser"></span>
+                    <span class="i fas fa-trash-alt" id="trash"></span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <canvas id="dibujo" class="dibujo"></canvas>
+
+<!-- <form action="">
+    <input type="text" id="año">
+    <input id="enviar" type="button" value="Send">
+</form> -->
+
+<script src="jscolor/jscolor.js"></script>
+<script src="teclas.js"></script>
+<script src="touch.js"></script>
+<script src="menu.js"></script>
+<!-- <script src="dom.js"></script> -->
+</body>
+</html>
